@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="rare.mysqlTest.dao.CardMapper">
+
+    <!-- 使用 resultType 作为返回类型  属性名 必须跟 数据库名称 一致-->
+    <select id="cardRowInfo" parameterType="int" resultType="rare.mysqlTest.Card">
+        SELECT card_id as cardId, card_info as cardInfo FROM card where card_id = #{cardId}
+    </select>
+</mapper>

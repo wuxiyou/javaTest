@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper
+        PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="rare.mysqlTest.dao.UserMapper">
+    <select id="selectUser" resultType="rare.mysqlTest.User">
+        select * from user  where id = #{id}
+    </select>
+
+
+    <!-- 返回java -->
+    <select id="selectListUser" resultType="rare.mysqlTest.User">
+        select * from user
+    </select>
+
+    <!-- 返回结果为HashMap -->
+    <select id="selectOneUser" resultType="HashMap">
+        select name "nameKey", age "ageKey" from user limit 1
+    </select>
+
+    <insert id="saveUser" parameterType="rare.mysqlTest.User">
+        insert into user (name, age) VALUES (#{name}, #{age})
+    </insert>
+
+
+    <select id="queryUserResultMap" resultMap="userListMapTest">
+        select id,name,age from user
+    </select>
+
+    <resultMap id="userListMapTest" type="rare.mysqlTest.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+    </resultMap>
+
+
+    <!-- 返回结果为HashMap  nameKey, ageKey 作为hashMap的键值-->
+    <select id="queryUserByHashMap" resultType="HashMap" parameterType="int">
+        select name "nameKey", age "ageKey" from user where id = #{id}
+    </select>
+
+
+    <select id="queryUserByListHashMap" resultType="HashMap">
+         select name "nameKey", age "ageKey" from user
+    </select>
+
+
+    <!-- 输入参数 为数组-->
+    <select id="queryUserListByArray" resultType="rare.mysqlTest.User">
+        select id,name, age from user
+        <where >
+          <foreach collection="array" open=" and id in (" close=")" item="item" separator=",">
+              #{item}
+          </foreach>
+        </where>
+    </select>
+
+
+    <!-- 输入参数 为 list-->
+    <select id="queryUserListByList" resultType="rare.mysqlTest.User">
+        select id,name, age from user
+        <where >
+            <foreach collection="list" open=" and id in (" close=")" item="item" separator=",">
+                #{item}
+            </foreach>
+        </where>
+    </select>
+
+    <!--
+    入参是一个对象
+    占位符 是对象的 属性值
+    -->
+    <select id="queryUserByCondition" resultType="rare.mysqlTest.User" parameterType="rare.mysqlTest.User">
+        select id, name, age from user
+        <where>
+            <if test="name != null">
+                and name like #{name}
+            </if>
+
+            <if test="age != null">
+                and age = #{age}
+            </if>
+        </where>
+    </select>
+
+    <!--
+    查询参数是一个 HashMap
+    占位符 是HashMap 的键值， 需保持一致
+    -->
+    <select id="queryUserByHashMapParams" resultType="rare.mysqlTest.User" parameterType="HashMap">
+        select id, name, age from user
+        <where>
+            <if test="name != null">
+                and name like #{name}
+            </if>
+
+            <if test="age != null">
+                and age = #{age}
+            </if>
+        </where>
+    </select>
+
+    <select id="queryUserByHashMapParams1" resultType="rare.mysqlTest.User" parameterType="HashMap">
+        select id, name, age from user
+        <where>
+            <if test="name != null">
+                and name like #{name}
+            </if>
+
+            <if test="age != null">
+                and age = #{age}
+            </if>
+        </where>
+    </select>
+
+
+    <select id="queryByAdType" parameterType="map" resultType="HashMap">
+        select * from user
+        <where>
+            <foreach collection="status" item="sta" separator="," open="  id in (" close=")">
+                #{sta}
+            </foreach>
+        </where>
+    </select>
+
+    <!-- 一 对 一 关联查询 -->
+    <select id="queryCardInfoWithUser" resultMap="user_unit_card">
+        SELECT u.*, c.*  FROM user AS u INNER JOIN card AS c ON  u.id = c.card_id limit 1
+    </select>
+
+    <resultMap id="user_unit_card" type="rare.mysqlTest.User">
+        <id property="id" column="id"/>
+        <result property="name" column="name"/>
+        <result property="age" column="age"/>
+        <association property="card" javaType="rare.mysqlTest.Card">
+            <id property="cardId" column="card_id"/>
+            <result property="cardInfo" column="card_info"/>
+        </association>
+    </resultMap>
+
+
+    <select id="queryClassWithUserInfo" resultMap="classWithUser" parameterType="int">
+        SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info
+        FROM grade as a
+        LEFT JOIN user as b
+        ON a.id = b.class_id
+        LEFT JOIN card as c
+        ON b.card_id = c.card_id
+        WHERE a.class_no = #{classNo}
+    </select>
+
+    <resultMap id="classWithUser" type="rare.mysqlTest.Grade">
+        <id property="id" column="id"/>
+        <result property="classNo" column="class_no" />
+        <result property="className" column="class_name"/>
+        <collection property="user" ofType="rare.mysqlTest.User">
+            <id property="id" column="id"/>
+            <result property="name" column="name"/>
+            <result property="age" column="age"/>
+            <collection property="card" ofType="rare.mysqlTest.Card">
+                <id property="cardId" column="card_id"/>
+                <result property="cardInfo" column="card_info"/>
+            </collection>
+        </collection>
+    </resultMap>
+
+    <!-- 根据班级id 查询学生 -->
+    <select id="userInfoByClassNo" parameterType="int" resultType="rare.mysqlTest.User">
+        SELECT * FROM user WHERE class_id = #{class_id}
+    </select>
+
+    <resultMap id="userInfoByClassNoMap" type="rare.mysqlTest.User">
+
+    </resultMap>
+</mapper>

@@ -1,0 +1,1172 @@
+[DEBUG][2018-12-29 09:36:01,114][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:36:01,318][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:36:01,364][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:36:01,365][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:36:01,370][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:36:01,372][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:36:01,651][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 09:36:02,200][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 280744458.
+[DEBUG][2018-12-29 09:36:02,201][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10bbd20a]
+[DEBUG][2018-12-29 09:36:02,205][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 09:36:02,296][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 09:36:02,322][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 09:36:02,323][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@10bbd20a]
+[DEBUG][2018-12-29 09:36:02,326][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@10bbd20a]
+[DEBUG][2018-12-29 09:36:02,327][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 280744458 to pool.
+[DEBUG][2018-12-29 09:38:25,997][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:38:26,209][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:38:26,249][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:38:26,249][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:38:26,249][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:38:26,249][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:38:26,540][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 09:38:27,377][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1632492873.
+[DEBUG][2018-12-29 09:38:27,377][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:38:27,382][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 09:38:27,443][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 09:38:27,488][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 09:38:27,490][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:38:27,491][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:38:27,491][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1632492873 to pool.
+[DEBUG][2018-12-29 09:39:37,767][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:39:38,186][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 09:39:38,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:39:38,281][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:39:38,281][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:39:38,281][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 09:39:38,730][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 09:39:39,454][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1632492873.
+[DEBUG][2018-12-29 09:39:39,455][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:39:39,459][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 09:39:39,532][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 09:39:39,558][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 09:39:39,560][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:39:39,561][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@614ddd49]
+[DEBUG][2018-12-29 09:39:39,561][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1632492873 to pool.
+[DEBUG][2018-12-29 10:00:24,076][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:00:24,264][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:00:24,306][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:00:24,306][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:00:24,306][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:00:24,306][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:00:24,561][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:00:25,130][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:00:25,130][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:00:25,134][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card_info AS c ON u.id = c.card_id 
+[DEBUG][2018-12-29 10:00:25,205][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:01:00,538][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:01:00,799][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:01:00,839][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:00,839][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:00,839][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:00,840][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:01,078][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:01:01,539][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:01:01,539][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:01:01,542][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id 
+[DEBUG][2018-12-29 10:01:01,608][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:01:01,756][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 4
+[DEBUG][2018-12-29 10:01:20,801][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:01:21,005][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:01:21,068][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:21,068][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:21,068][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:21,069][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:01:21,297][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:01:21,794][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:01:21,795][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:01:21,798][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limt 1 
+[DEBUG][2018-12-29 10:01:21,851][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:02:18,959][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:02:19,183][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:02:19,262][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:02:19,262][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:02:19,262][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:02:19,263][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:02:19,537][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:02:20,128][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:02:20,128][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:02:20,131][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:02:20,199][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:02:20,262][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:02:20,263][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:02:20,263][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:02:20,264][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:03:02,208][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:03:02,417][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:03:02,476][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:03:02,477][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:03:02,479][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:03:02,479][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:03:02,717][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:03:03,246][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:03:03,247][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:03:03,250][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:03:03,300][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:03:03,406][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:03:03,408][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:03:03,408][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:03:03,409][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:12:10,188][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:12:10,396][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:12:10,439][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:10,439][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:10,439][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:10,439][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:10,713][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:12:11,199][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:12:11,199][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:12:11,202][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:12:11,270][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:12:11,295][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:12:36,781][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:12:36,992][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:12:37,033][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:37,034][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:37,034][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:37,034][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:12:37,270][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:12:37,776][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:12:37,776][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:12:37,779][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:12:37,823][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:12:37,872][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:12:37,873][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:12:37,873][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:12:37,874][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:13:53,986][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:13:54,175][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:13:54,225][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:13:54,225][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:13:54,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:13:54,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:13:54,472][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:13:54,981][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:13:54,982][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:13:54,985][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u LEFT JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:13:55,033][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:13:55,073][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:23:30,722][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:23:30,956][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:23:31,010][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:31,010][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:31,010][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:31,011][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:31,249][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:23:31,762][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:23:31,763][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:23:31,765][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:23:31,811][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:23:31,859][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:23:31,860][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:23:31,860][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:23:31,861][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:23:57,513][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:23:57,768][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:23:57,885][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:57,885][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:57,885][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:57,885][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:23:58,137][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:23:58,798][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:23:58,798][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:23:58,801][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT * FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:23:58,850][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:23:58,891][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:24:41,352][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:24:41,574][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:24:41,620][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:24:41,621][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:24:41,621][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:24:41,621][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:24:41,859][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:24:42,439][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:24:42,440][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:24:42,443][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:24:42,528][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:24:42,577][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:29:26,422][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:29:26,698][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:29:26,741][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:26,741][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:26,741][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:26,741][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:26,999][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:29:27,588][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:29:27,589][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:29:27,591][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:29:27,678][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:29:27,711][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:29:49,305][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:29:49,510][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:29:49,562][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:49,562][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:49,563][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:49,563][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:29:49,823][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:29:50,359][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:29:50,359][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:29:50,363][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:29:50,441][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:29:50,498][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:29:50,499][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:29:50,500][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:29:50,501][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:31:17,566][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:31:17,783][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:31:17,824][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:31:17,824][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:31:17,824][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:31:17,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:31:18,078][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:31:18,646][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:31:18,646][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:31:18,649][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:31:18,697][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:31:18,739][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:31:18,741][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:31:18,742][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:31:18,742][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1843368112 to pool.
+[DEBUG][2018-12-29 10:45:15,846][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:45:16,171][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:45:16,279][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:45:16,279][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:45:16,279][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:45:16,280][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:45:16,862][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:45:17,652][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:45:17,652][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:45:17,655][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:45:17,720][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:45:17,799][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:49:19,144][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:49:19,393][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:49:19,448][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:49:19,448][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:49:19,448][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:49:19,449][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:49:19,768][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:49:20,548][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1843368112.
+[DEBUG][2018-12-29 10:49:20,549][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6ddf90b0]
+[DEBUG][2018-12-29 10:49:20,552][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:49:20,643][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:49:20,679][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:54:09,444][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:54:09,700][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:54:09,778][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:54:09,778][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:54:09,778][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:54:09,778][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:56:50,652][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:56:50,869][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:56:50,938][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:56:50,938][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:56:50,939][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:56:50,939][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:57:50,049][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:57:50,346][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 10:57:50,474][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:57:50,475][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:57:50,479][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:57:50,479][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 10:57:50,977][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 10:57:51,615][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 989938643.
+[DEBUG][2018-12-29 10:57:51,616][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b0143d3]
+[DEBUG][2018-12-29 10:57:51,619][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 10:57:51,722][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 10:57:51,746][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 10:57:51,748][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b0143d3]
+[DEBUG][2018-12-29 10:57:51,748][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3b0143d3]
+[DEBUG][2018-12-29 10:57:51,749][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 989938643 to pool.
+[DEBUG][2018-12-29 11:03:28,240][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:03:28,445][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:03:28,504][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:28,504][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:28,504][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:28,504][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:28,710][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:03:29,144][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1465085305.
+[DEBUG][2018-12-29 11:03:29,144][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57536d79]
+[DEBUG][2018-12-29 11:03:29,147][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 11:03:29,213][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 11:03:51,586][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:03:51,873][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:03:51,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:51,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:51,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:51,921][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:03:52,196][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:03:52,787][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1465085305.
+[DEBUG][2018-12-29 11:03:52,788][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57536d79]
+[DEBUG][2018-12-29 11:03:52,791][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==>  Preparing: SELECT u.*, c.* FROM user AS u INNER JOIN card AS c ON u.id = c.card_id limit 1 
+[DEBUG][2018-12-29 11:03:52,844][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]==> Parameters: 
+[DEBUG][2018-12-29 11:03:52,872][rare.mysqlTest.dao.UserMapper.queryCardInfoWithUser]<==      Total: 1
+[DEBUG][2018-12-29 11:03:52,873][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@57536d79]
+[DEBUG][2018-12-29 11:03:52,874][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@57536d79]
+[DEBUG][2018-12-29 11:03:52,874][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1465085305 to pool.
+[DEBUG][2018-12-29 11:05:09,959][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:05:10,167][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:05:10,223][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:05:10,223][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:05:10,223][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:05:10,223][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:05:10,631][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:05:11,115][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:05:11,116][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:05:11,119][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:05:11,168][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:05:11,203][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 11:09:08,162][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:09:08,462][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:09:08,515][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:09:08,515][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:09:08,515][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:09:08,515][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:09:08,894][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:09:09,527][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:09:09,527][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:09:09,530][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:09:09,616][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:09:09,636][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 11:10:30,547][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:10:30,761][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:10:30,836][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:30,836][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:30,837][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:30,841][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:31,124][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:10:31,698][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:10:31,698][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:10:31,701][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:10:31,752][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:10:31,792][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 11:10:47,993][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:10:48,207][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:10:48,247][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:48,247][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:48,247][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:48,247][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:10:48,536][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:10:49,070][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:10:49,071][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:10:49,074][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:10:49,123][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:10:49,141][rare.mysqlTest.dao.UserMapper.queryUserByHashMapParams]<==      Total: 3
+[DEBUG][2018-12-29 11:44:19,208][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:44:19,595][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:44:19,678][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:44:19,679][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:44:19,680][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:44:19,681][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:44:20,327][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:44:21,438][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:44:21,438][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:44:21,455][rare.mysqlTest.dao.UserMapper.queryUserByCondition]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:44:21,549][rare.mysqlTest.dao.UserMapper.queryUserByCondition]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:44:21,579][rare.mysqlTest.dao.UserMapper.queryUserByCondition]<==      Total: 3
+[DEBUG][2018-12-29 11:46:06,941][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:46:07,176][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 11:46:07,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:46:07,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:46:07,273][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:46:07,274][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 11:46:07,616][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 11:46:08,166][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 525683462.
+[DEBUG][2018-12-29 11:46:08,166][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:46:08,169][rare.mysqlTest.dao.UserMapper.queryUserByCondition]==>  Preparing: select id, name, age from user WHERE name like ? 
+[DEBUG][2018-12-29 11:46:08,249][rare.mysqlTest.dao.UserMapper.queryUserByCondition]==> Parameters: %R%(String)
+[DEBUG][2018-12-29 11:46:08,277][rare.mysqlTest.dao.UserMapper.queryUserByCondition]<==      Total: 3
+[DEBUG][2018-12-29 11:46:08,278][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:46:08,279][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f554b06]
+[DEBUG][2018-12-29 11:46:08,279][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 525683462 to pool.
+[DEBUG][2018-12-29 14:09:25,102][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:09:25,552][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:09:25,656][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:09:25,656][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:09:25,658][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:09:25,660][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:09:25,904][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:09:27,197][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:09:27,198][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:09:27,200][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:09:27,253][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:10:22,008][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:10:22,237][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:10:22,284][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:10:22,284][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:10:22,284][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:10:22,284][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:10:22,511][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:10:22,957][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:10:22,958][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:10:22,961][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:10:23,028][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:10:23,071][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:10:23,073][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:10:23,073][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:10:23,073][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:11:57,236][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:11:57,447][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:11:57,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:11:57,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:11:57,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:11:57,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:11:57,748][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:11:58,224][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:11:58,224][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:11:58,227][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:11:58,299][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:11:58,340][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:11:58,341][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:11:58,342][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:11:58,342][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:13:49,032][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:13:49,246][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:13:49,286][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:13:49,286][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:13:49,287][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:13:49,287][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:13:49,519][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:13:49,966][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:13:49,967][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:13:49,970][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:13:50,032][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:13:50,065][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:13:50,066][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:13:50,068][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:13:50,069][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:15:16,275][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:15:16,632][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:15:16,726][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:15:16,726][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:15:16,727][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:15:16,727][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:15:17,052][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:15:17,741][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:15:17,741][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:15:17,745][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:15:17,827][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:15:17,932][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:15:17,933][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:15:17,935][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:15:17,935][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:16:07,455][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:16:07,703][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:16:07,771][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:16:07,771][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:16:07,771][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:16:07,771][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:16:07,990][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:16:08,520][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:16:08,521][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:16:08,523][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:16:08,587][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 14:16:08,629][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:16:08,630][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:16:08,630][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:16:08,631][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:17:14,150][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:17:14,336][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:17:14,373][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:17:14,373][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:17:14,373][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:17:14,373][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:17:14,605][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:17:15,131][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:17:15,131][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:17:15,135][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:17:15,226][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:17:15,268][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:17:15,269][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:17:15,269][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:17:15,270][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:31:30,106][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:31:30,401][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:31:30,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:30,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:30,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:30,497][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:30,814][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:31:31,605][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:31:31,605][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:31,608][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:31:31,705][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:31:31,819][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:31:31,821][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:31,822][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:31,822][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:31:55,665][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:31:55,992][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:31:56,054][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:56,054][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:56,054][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:56,054][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:31:56,275][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:31:56,780][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:31:56,780][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:56,782][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:31:56,853][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:31:56,876][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:31:56,877][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:56,879][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:31:56,880][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:34:47,156][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:34:47,369][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:34:47,410][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:34:47,411][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:34:47,411][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:34:47,411][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:34:47,672][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:34:48,183][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 916419490.
+[DEBUG][2018-12-29 14:34:48,184][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:34:48,187][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:34:48,254][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:34:48,283][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:34:48,284][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:34:48,285][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@369f73a2]
+[DEBUG][2018-12-29 14:34:48,290][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 916419490 to pool.
+[DEBUG][2018-12-29 14:35:05,368][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:35:05,619][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:35:05,674][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:35:05,675][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:35:05,677][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:35:05,679][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:35:05,933][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:35:06,465][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 14:35:06,467][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:35:06,471][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.*, b.* ,c.* FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:35:06,567][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:35:06,598][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:35:06,600][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:35:06,601][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:35:06,602][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 14:36:54,113][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:36:54,294][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:36:54,352][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:36:54,352][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:36:54,352][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:36:54,353][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:36:54,554][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:36:55,085][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 14:36:55,086][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:36:55,089][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:36:55,146][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:36:55,210][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:37:57,853][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:37:58,058][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:37:58,114][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:37:58,115][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:37:58,116][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:37:58,116][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:37:58,348][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:37:58,871][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 14:37:58,871][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:37:58,875][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:37:58,918][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:37:58,948][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:37:58,951][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:37:58,953][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:37:58,957][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 14:41:01,279][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:41:01,724][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 14:41:01,825][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:41:01,826][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:41:01,827][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:41:01,827][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 14:41:02,090][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 14:41:02,699][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 14:41:02,700][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:41:02,703][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 14:41:02,778][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 14:41:02,815][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 14:41:02,816][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:41:02,817][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 14:41:02,817][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 15:07:00,842][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:07:01,298][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:07:01,376][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:07:01,377][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:07:01,377][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:07:01,378][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:07:01,803][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 15:07:02,775][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 15:07:02,776][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:07:02,779][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 15:07:02,843][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 15:07:02,918][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 15:07:02,921][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:07:02,923][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:07:02,923][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 15:08:18,781][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:08:19,019][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:08:19,085][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:19,086][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:19,087][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:19,088][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:19,354][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 15:08:20,090][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 15:08:20,091][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:20,094][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 15:08:20,168][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 15:08:20,208][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 15:08:20,210][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:20,212][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:20,212][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 15:08:52,716][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:08:52,927][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:08:52,976][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:52,977][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:52,978][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:52,982][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:08:53,235][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 15:08:53,756][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 15:08:53,756][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:53,761][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE class_no = ? 
+[DEBUG][2018-12-29 15:08:53,841][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 15:08:53,883][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 15:08:53,884][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:53,885][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:08:53,885][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 15:09:42,565][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:09:42,825][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 15:09:42,870][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:09:42,870][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:09:42,872][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:09:42,872][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 15:09:43,151][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 15:09:43,717][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1846412426.
+[DEBUG][2018-12-29 15:09:43,718][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:09:43,722][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==>  Preparing: SELECT a.class_no,a.class_name, b.name,b.age ,c.card_id,c.card_info FROM grade as a LEFT JOIN user as b ON a.id = b.class_id LEFT JOIN card as c ON b.card_id = c.card_id WHERE a.class_no = ? 
+[DEBUG][2018-12-29 15:09:43,809][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 15:09:43,876][rare.mysqlTest.dao.UserMapper.queryClassWithUserInfo]<==      Total: 2
+[DEBUG][2018-12-29 15:09:43,878][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:09:43,879][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@6e0e048a]
+[DEBUG][2018-12-29 15:09:43,879][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1846412426 to pool.
+[DEBUG][2018-12-29 16:57:24,701][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 16:57:25,136][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 16:57:25,225][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:57:25,225][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:57:25,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:57:25,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:58:07,686][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 16:58:07,886][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 16:58:07,940][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:58:07,942][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:58:07,943][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:58:07,943][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 16:58:08,311][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 16:58:09,297][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 16:58:09,298][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 16:58:09,316][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 16:58:09,408][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 1(Integer)
+[DEBUG][2018-12-29 16:58:09,596][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 16:58:09,597][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 16:58:09,600][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 16:58:09,601][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:01:49,533][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:01:49,746][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:01:49,852][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:01:49,853][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:01:49,854][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:01:49,854][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:01:50,117][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:01:50,548][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1037324811.
+[DEBUG][2018-12-29 17:01:50,548][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:01:50,553][rare.mysqlTest.dao.GradeMapper.queryListInfo]==>  Preparing: SELECT * FROM grade WHERE 1 = 1 
+[DEBUG][2018-12-29 17:01:50,608][rare.mysqlTest.dao.GradeMapper.queryListInfo]==> Parameters: 
+[DEBUG][2018-12-29 17:01:50,670][rare.mysqlTest.dao.GradeMapper.queryListInfo]<==      Total: 3
+[DEBUG][2018-12-29 17:01:50,672][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:01:50,673][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:01:50,673][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1037324811 to pool.
+[DEBUG][2018-12-29 17:03:03,948][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:03:04,116][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:03:04,158][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:03:04,159][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:03:04,159][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:03:04,160][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:03:04,432][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:03:04,900][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:03:04,901][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:03:04,905][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:03:04,961][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:03:04,994][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:03:04,996][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:03:04,996][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:03:04,996][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:04:55,287][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:04:55,484][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:04:55,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:04:55,538][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:04:55,539][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:04:55,540][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:04:55,854][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:04:56,391][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:04:56,393][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:04:56,397][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = 1 
+[DEBUG][2018-12-29 17:04:56,459][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 
+[DEBUG][2018-12-29 17:04:56,494][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:04:56,495][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:04:56,499][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:04:56,499][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:06:39,898][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:06:40,112][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:06:40,169][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:06:40,173][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:06:40,174][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:06:40,175][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:06:40,446][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:06:40,972][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:06:40,973][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:06:40,976][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:06:41,026][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:06:41,064][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:06:41,066][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:06:41,067][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:06:41,067][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:08:32,777][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:08:32,963][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:08:33,028][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:08:33,029][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:08:33,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:08:33,030][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:08:33,293][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:08:33,767][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:08:33,768][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:08:33,771][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT class_no FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:08:33,815][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:08:33,857][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:08:33,865][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:08:33,866][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:08:33,867][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:09:06,958][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:07,167][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:07,205][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:07,206][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:07,206][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:07,207][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:07,471][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:09:07,891][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:09:07,892][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:07,895][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT class_no,class_name FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:09:07,945][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:09:07,995][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:09:07,996][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:07,998][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:07,999][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:09:24,403][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:24,616][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:24,658][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:24,659][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:24,660][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:24,660][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:24,950][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:09:25,513][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:09:25,514][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:25,517][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:09:25,570][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:09:25,633][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:09:25,635][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:25,636][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:25,636][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:09:56,752][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:56,947][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:09:56,984][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:56,985][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:56,985][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:56,986][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:09:57,255][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:09:57,708][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1549409129.
+[DEBUG][2018-12-29 17:09:57,709][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:57,713][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT id,class_no,class_name FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 17:09:57,772][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:09:57,798][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:09:57,801][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:57,803][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@5c5a1b69]
+[DEBUG][2018-12-29 17:09:57,804][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1549409129 to pool.
+[DEBUG][2018-12-29 17:14:24,177][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:14:24,391][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:14:24,450][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:14:24,451][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:14:24,451][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:14:24,454][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:14:24,729][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:14:25,279][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1037324811.
+[DEBUG][2018-12-29 17:14:25,280][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:14:25,283][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]==>  Preparing: SELECT * FROM grade WHERE 1 = 1 
+[DEBUG][2018-12-29 17:14:25,355][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]==> Parameters: 
+[DEBUG][2018-12-29 17:14:25,386][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]<==      Total: 3
+[DEBUG][2018-12-29 17:14:25,387][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:14:25,391][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3dd4520b]
+[DEBUG][2018-12-29 17:14:25,392][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1037324811 to pool.
+[DEBUG][2018-12-29 17:23:35,710][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:23:36,005][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:23:36,075][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:23:36,076][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:23:36,076][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:23:36,079][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:23:36,476][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:23:37,125][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:23:37,126][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:23:37,132][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT * FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:23:37,198][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:23:37,254][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:23:37,255][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:23:37,256][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:23:37,257][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:24:31,933][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:24:32,126][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:24:32,193][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:24:32,193][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:24:32,194][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:24:32,195][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:24:32,483][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:24:32,931][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:24:32,935][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:24:32,943][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT * FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:24:33,025][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:24:33,044][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:24:33,045][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:24:33,046][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:24:33,047][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:25:25,088][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:25:25,400][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:25:25,464][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:25:25,467][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:25:25,468][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:25:25,469][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:25:25,828][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:25:26,444][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:25:26,445][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:25:26,449][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT * FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:25:26,551][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:25:26,572][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:25:26,574][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:25:26,575][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:25:26,576][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:35:54,304][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:35:54,546][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:35:54,607][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:35:54,607][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:35:54,609][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:35:54,611][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:35:55,013][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:35:55,639][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 922872566.
+[DEBUG][2018-12-29 17:35:55,640][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 17:35:55,644][rare.mysqlTest.dao.UserMapper.selectListUser]==>  Preparing: select * from user 
+[DEBUG][2018-12-29 17:35:55,728][rare.mysqlTest.dao.UserMapper.selectListUser]==> Parameters: 
+[DEBUG][2018-12-29 17:35:55,786][rare.mysqlTest.dao.UserMapper.selectListUser]<==      Total: 4
+[DEBUG][2018-12-29 17:35:55,788][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 17:35:55,789][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 17:35:55,790][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 922872566 to pool.
+[DEBUG][2018-12-29 17:37:41,772][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:37:42,045][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:37:42,115][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:37:42,115][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:37:42,116][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:37:42,117][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:37:42,461][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:37:43,084][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:37:43,085][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:37:43,089][rare.mysqlTest.dao.UserMapper.selectUser]==>  Preparing: select * from user where id = ? 
+[DEBUG][2018-12-29 17:37:43,153][rare.mysqlTest.dao.UserMapper.selectUser]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:37:43,194][rare.mysqlTest.dao.UserMapper.selectUser]<==      Total: 1
+[DEBUG][2018-12-29 17:37:43,195][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:37:43,196][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:37:43,197][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:38:22,598][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:38:22,944][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:38:23,020][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:38:23,020][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:38:23,021][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:38:23,022][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:38:23,403][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:38:24,142][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:38:24,143][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:38:24,147][rare.mysqlTest.dao.UserMapper.selectUser]==>  Preparing: select * from user where id = ? 
+[DEBUG][2018-12-29 17:38:24,238][rare.mysqlTest.dao.UserMapper.selectUser]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:38:24,264][rare.mysqlTest.dao.UserMapper.selectUser]<==      Total: 1
+[DEBUG][2018-12-29 17:38:24,265][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:38:24,266][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:38:24,267][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:39:52,805][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:39:53,047][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:39:53,106][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:39:53,107][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:39:53,107][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:39:53,108][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:39:53,462][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:39:53,949][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:39:53,950][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:39:53,955][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT * FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:39:54,005][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:39:54,031][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:39:54,035][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:39:54,036][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:39:54,037][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:41:12,087][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:41:12,290][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:41:12,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:41:12,331][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:41:12,332][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:41:12,332][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:41:12,672][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:41:13,148][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:41:13,150][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:41:13,155][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT * FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:41:13,243][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:41:13,266][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:41:13,268][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:41:13,268][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:41:13,269][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:45:50,223][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:45:50,486][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:45:50,569][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:45:50,570][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:45:50,570][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:45:50,571][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:45:50,894][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:45:51,379][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:45:51,380][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:45:51,384][rare.mysqlTest.dao.UserMapper.selectUser]==>  Preparing: select * from user where id = ? 
+[DEBUG][2018-12-29 17:45:51,473][rare.mysqlTest.dao.UserMapper.selectUser]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:45:51,493][rare.mysqlTest.dao.UserMapper.selectUser]<==      Total: 1
+[DEBUG][2018-12-29 17:45:51,495][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:45:51,498][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:45:51,499][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:49:02,149][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:49:02,363][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:49:02,406][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:49:02,407][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:49:02,408][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:49:02,408][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:49:02,735][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 17:49:03,228][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 17:49:03,228][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:49:03,232][rare.mysqlTest.dao.CardMapper.cardRowInfo]==>  Preparing: SELECT card_id as cardId, card_info as cardInfo FROM card where card_id = ? 
+[DEBUG][2018-12-29 17:49:03,274][rare.mysqlTest.dao.CardMapper.cardRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 17:49:03,318][rare.mysqlTest.dao.CardMapper.cardRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 17:49:03,319][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:49:03,320][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 17:49:03,320][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 17:55:36,083][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:55:36,447][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:55:36,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:55:36,512][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:55:36,513][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:55:36,514][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:59:24,024][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:59:24,335][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 17:59:24,414][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:59:24,416][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:59:24,418][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 17:59:24,420][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 18:00:08,951][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 18:00:09,162][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 18:00:09,225][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 18:00:09,226][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 18:00:09,227][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 18:00:09,227][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 18:00:09,513][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 18:00:10,033][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 523691575.
+[DEBUG][2018-12-29 18:00:10,034][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 18:00:10,038][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==>  Preparing: SELECT id,class_no as classNo,class_name as className FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 18:00:10,112][rare.mysqlTest.dao.GradeMapper.queryRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 18:00:10,137][rare.mysqlTest.dao.GradeMapper.queryRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 18:00:10,138][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 18:00:10,139][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@1f36e637]
+[DEBUG][2018-12-29 18:00:10,140][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 523691575 to pool.
+[DEBUG][2018-12-29 22:42:49,856][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:42:50,100][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:42:50,158][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:42:50,159][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:42:50,160][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:42:50,161][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:42:50,427][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 22:42:50,891][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 922872566.
+[DEBUG][2018-12-29 22:42:50,892][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 22:42:50,896][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]==>  Preparing: SELECT * FROM grade WHERE 1 = 1 
+[DEBUG][2018-12-29 22:42:50,957][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]==> Parameters: 
+[DEBUG][2018-12-29 22:42:50,987][rare.mysqlTest.dao.GradeMapper.queryListInfoObject]<==      Total: 3
+[DEBUG][2018-12-29 22:42:50,989][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 22:42:50,990][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@3701eaf6]
+[DEBUG][2018-12-29 22:42:50,990][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 922872566 to pool.
+[DEBUG][2018-12-29 22:56:09,340][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:56:09,577][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:56:09,648][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:56:09,649][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:56:09,650][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:56:09,651][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:56:09,978][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 22:56:10,489][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1132547352.
+[DEBUG][2018-12-29 22:56:10,490][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:56:10,493][rare.mysqlTest.dao.GradeMapper.insertInfo]==>  Preparing: INSERT INTO grade (class_no, class_name) VALUES (?, ?) 
+[DEBUG][2018-12-29 22:56:10,551][rare.mysqlTest.dao.GradeMapper.insertInfo]==> Parameters: 4(Integer), g4(String)
+[DEBUG][2018-12-29 22:56:10,754][rare.mysqlTest.dao.GradeMapper.insertInfo]<==    Updates: 1
+[DEBUG][2018-12-29 22:56:10,755][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:56:11,005][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:56:11,006][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:56:11,007][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1132547352 to pool.
+[DEBUG][2018-12-29 22:57:56,747][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:57:56,979][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 22:57:57,054][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:57:57,055][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:57:57,055][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:57:57,056][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 22:57:57,412][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 22:57:57,947][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1132547352.
+[DEBUG][2018-12-29 22:57:57,948][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:57:57,950][rare.mysqlTest.dao.GradeMapper.insertInfo]==>  Preparing: INSERT INTO grade (class_no, class_name) VALUES (?, ?) 
+[DEBUG][2018-12-29 22:57:57,997][rare.mysqlTest.dao.GradeMapper.insertInfo]==> Parameters: 5(Integer), g5(String)
+[DEBUG][2018-12-29 22:57:58,023][rare.mysqlTest.dao.GradeMapper.insertInfo]<==    Updates: 1
+[DEBUG][2018-12-29 22:57:58,024][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:57:58,181][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:57:58,182][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 22:57:58,183][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1132547352 to pool.
+[DEBUG][2018-12-29 23:02:07,092][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:02:07,364][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:02:07,414][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:02:07,414][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:02:07,415][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:02:07,416][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:02:07,751][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:02:08,241][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1132547352.
+[DEBUG][2018-12-29 23:02:08,242][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 23:02:08,247][rare.mysqlTest.dao.GradeMapper.insertInfo]==>  Preparing: INSERT INTO grade (class_no, class_name) VALUES (?, ?) 
+[DEBUG][2018-12-29 23:02:08,335][rare.mysqlTest.dao.GradeMapper.insertInfo]==> Parameters: 5(Integer), g5(String)
+[DEBUG][2018-12-29 23:02:08,354][rare.mysqlTest.dao.GradeMapper.insertInfo]<==    Updates: 1
+[DEBUG][2018-12-29 23:02:08,355][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Committing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 23:02:08,397][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 23:02:08,398][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@43814d18]
+[DEBUG][2018-12-29 23:02:08,399][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1132547352 to pool.
+[DEBUG][2018-12-29 23:31:33,130][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:31:33,348][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:31:33,414][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:31:33,415][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:31:33,415][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:31:33,416][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:35:56,545][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:35:56,771][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:35:56,814][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:35:56,814][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:35:56,815][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:35:56,816][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:35:57,139][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:35:57,654][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:35:57,655][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:35:57,658][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:35:57,726][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:35:57,768][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:35:57,769][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:35:57,770][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:35:57,771][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:36:36,604][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:36:36,843][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:36:36,895][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:36:36,895][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:36:36,896][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:36:36,896][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:36:37,168][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:36:37,651][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:36:37,652][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:36:37,655][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:36:37,740][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:36:37,783][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:36:37,785][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:36:37,785][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:36:37,786][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:37:46,956][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:37:47,154][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:37:47,197][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:37:47,198][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:37:47,199][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:37:47,199][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:37:47,524][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:37:47,990][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:37:47,991][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:37:47,994][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:37:48,071][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:37:48,090][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:37:48,091][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:37:48,093][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:37:48,093][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:38:16,344][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:38:16,560][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:38:16,599][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:38:16,600][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:38:16,600][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:38:16,601][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:38:16,888][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:38:17,373][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:38:17,373][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:38:17,377][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:38:17,441][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:38:17,480][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:38:17,483][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:38:17,485][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:38:17,485][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:41:33,477][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:41:33,693][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:41:33,737][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:41:33,738][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:41:33,738][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:41:33,739][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:41:34,050][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:41:34,544][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:41:34,545][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:41:34,551][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]==>  Preparing: SELECT * FROM user WHERE class_id = ? 
+[DEBUG][2018-12-29 23:41:34,660][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:41:34,687][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]<==      Total: 2
+[DEBUG][2018-12-29 23:41:34,690][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:41:34,692][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:41:34,692][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:42:16,776][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:42:16,961][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:42:17,014][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:17,015][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:17,017][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:17,019][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:17,325][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:42:17,840][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:42:17,842][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:17,845][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:42:17,904][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:42:17,956][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:42:17,957][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:17,958][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:17,959][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:42:53,450][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:42:53,658][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:42:53,697][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:53,698][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:53,699][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:53,699][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:42:53,995][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:42:54,439][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:42:54,440][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:54,443][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:42:54,500][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:42:54,556][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]====>  Preparing: SELECT * FROM user WHERE class_id = ? 
+[DEBUG][2018-12-29 23:42:54,557][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]====> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:42:54,560][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]<====      Total: 2
+[DEBUG][2018-12-29 23:42:54,561][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:42:54,562][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:54,563][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:42:54,563][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
+[DEBUG][2018-12-29 23:43:46,893][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:43:47,114][org.apache.ibatis.logging.LogFactory]Logging initialized using 'class org.apache.ibatis.logging.log4j.Log4jImpl' adapter.
+[DEBUG][2018-12-29 23:43:47,151][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:43:47,151][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:43:47,152][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:43:47,153][org.apache.ibatis.datasource.pooled.PooledDataSource]PooledDataSource forcefully closed/removed all connections.
+[DEBUG][2018-12-29 23:43:47,439][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Opening JDBC Connection
+[DEBUG][2018-12-29 23:43:47,928][org.apache.ibatis.datasource.pooled.PooledDataSource]Created connection 1427810650.
+[DEBUG][2018-12-29 23:43:47,928][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Setting autocommit to false on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:43:47,931][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==>  Preparing: SELECT * FROM grade WHERE class_no = ? 
+[DEBUG][2018-12-29 23:43:47,990][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]==> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:43:48,024][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]====>  Preparing: SELECT * FROM user WHERE class_id = ? 
+[DEBUG][2018-12-29 23:43:48,031][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]====> Parameters: 2(Integer)
+[DEBUG][2018-12-29 23:43:48,034][rare.mysqlTest.dao.UserMapper.userInfoByClassNo]<====      Total: 2
+[DEBUG][2018-12-29 23:43:48,035][rare.mysqlTest.dao.GradeMapper.gradeRowInfo]<==      Total: 1
+[DEBUG][2018-12-29 23:43:48,036][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Resetting autocommit to true on JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:43:48,037][org.apache.ibatis.transaction.jdbc.JdbcTransaction]Closing JDBC Connection [com.mysql.jdbc.JDBC4Connection@551aa95a]
+[DEBUG][2018-12-29 23:43:48,037][org.apache.ibatis.datasource.pooled.PooledDataSource]Returned connection 1427810650 to pool.
